@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS盒模型</title>
+    <style media="screen">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #content {
+            width: 300px;
+            height: 400px;
+            border: 5px solid #242424;
+            padding: 20px;
+            background-color: #898989;
+            /*box-sizing: border-box;*/
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<!--<p>css盒模型分为标准模型和IE模型</p>-->
+<!--<p>1.标准模型：浏览器默认模型，即box-sizing:content-box</p>-->
+<div style="overflow: hidden">
+    <div id="content">
+111111111111111111111111
+    </div>
+</div>
+
+<!--<div id="test" style="width: 100px;height: 100px"></div>-->
+<script type="text/javascript">
+    let dom = document.getElementById('content');
+    let w1 = document.getElementById('content').style.width;
+    if(dom.currentStyle) {
+        var width = dom.currentStyle['width'];
+        console.log('ie:' + width);
+    } else if(window.getComputedStyle) {
+        var width = window.getComputedStyle(dom , null)['width'];
+        console.log('firefox:' + width);
+    }
+    let fw = dom.offsetWidth
+    console.log("fw",fw)
+
+    let cw = dom.clientWidth
+    console.log("cw",cw)
+
+    let ft = dom.offsetTop
+    console.log("ft",ft)
+
+</script>
+</body>
+</html>

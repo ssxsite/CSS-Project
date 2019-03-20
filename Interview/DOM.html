@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM 事件</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+</head>
+<body>
+<div id="parent">
+    <div id="test1">点击我</div>
+</div>
+
+<script type="text/javascript">
+    var dom = document.getElementById('test1');
+    var parent = document.getElementById('parent');
+
+    /* dom2绑定事件兼容ie地低版本写法 */
+    var Event = {};
+    Event.addEvents = function(target,eventType,handle,arguments){
+        if(document.addEventListener){
+            target.addEventListener(eventType,handle,arguments?arguments:false);
+        }else{
+            target.attachEvent('on'+eventType,function(){
+                handle.call(target,arguments);
+            });
+        }
+    }
+
+    /*事件函数在捕获阶段执行*/
+    Event.addEvents(document,'click',function () {
+        console.log('document')
+    },true)
+    Event.addEvents(document.documentElement,'click',function () {
+        console.log('html')
+    },true)
+    Event.addEvents(document.body,'click',function () {
+        console.log('body')
+    },true)
+    Event.addEvents(parent,'click',function () {
+        console.log('parent')
+    },true)
+    Event.addEvents(dom,'click',function () {
+        console.log('dom')
+    },true)
+
+    /*事件函数在冒泡阶段执行*/
+    Event.addEvents(document,'click',function () {
+        console.log('document-2')
+    })
+    Event.addEvents(document.documentElement,'click',function () {
+        console.log('html-2')
+    })
+    Event.addEvents(document.body,'click',function () {
+        console.log('body-2')
+    })
+    Event.addEvents(parent,'click',function () {
+        console.log('parent-2')
+    })
+    Event.addEvents(dom,'click',function () {
+        console.log('dom-2')
+    })
+
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+@import "./another.css";
+.shadow{
+    box-shadow: 0 0 0 10px green;
+}
+body{
+   padding: 0;
+}
+body{
+    font-size: 28px;
+}
+
+:root {
+    --danger-theme: {
+        color: white;
+        background-color: red;
+    }
+}
+
+.danger {
+    @apply --danger-theme;
+}

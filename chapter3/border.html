@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>border</title>
+    <style>
+        .c1{
+            width:400px;
+            height: 200px;
+            /* border: 1px solid red; */
+            /* border:5px solid red; */
+            /* border:5px dotted red; */
+            /*border:5px dashed red;*/
+            /*border-top-width: 10px;*/
+            /*border-top-color: blue;*/
+            /*border-top-style: dashed;*/
+        }
+        .c2{
+            width:400px;
+            height: 200px;
+            /* border-width: 30px; */
+            border:30px solid transparent;
+            border-image:url(img/border.png) 30 round;
+        }
+        /* 用边框实现梯形*/
+        .c3{
+            width:400px;
+            height: 200px;
+            border-bottom:30px solid red;
+            /* border-right:30px solid blue; */
+            border-left:30px solid transparent;
+            border-right:30px solid transparent;
+        }
+       /* 用边框实现三角形 */
+        .c4 {
+            width:0px;
+            height: 0;
+            border-bottom:30px solid red;
+            /* border-right:30px solid blue; */
+            border-left:30px solid transparent;
+            border-right:30px solid transparent;
+        }
+        .c4-2{
+            width:0px;
+            height: 0;
+            border-top:30px solid red;
+            /* border-right:30px solid blue; */
+            border-left:30px solid transparent;
+            border-right:30px solid transparent;
+        }
+        /* 用边框实现扇形 */
+        .c5{
+            width:0;
+            height: 0;
+            border-bottom:50px solid red;
+            /* border-right:50px solid blue; */
+            border-left:50px solid transparent;
+            border-right:50px solid transparent;
+            border-radius: 50%;
+        }
+
+
+        .line{
+            margin-top: 20px;
+            height: 0;
+            width: 100%;
+            border: 2px dashed red;
+        }
+        .c7{
+            width:400px;
+            height: 200px;
+            margin-top: 30px;
+            /* border-width: 30px; */
+            border:10px solid transparent;
+            border-image:url(img/border.png) 30 round;
+        }
+    </style>
+</head>
+<body>
+    <div class="c1">
+
+    </div>
+    <div class="c2">
+
+    </div>
+    <p>用边框实现梯形</p>
+    <div class="c3">
+
+    </div>
+
+    <p>用边框实现三角形</p>
+    <div class="c4">
+
+    </div>
+
+    <p>用边框实现倒三角形</p>
+    <div class="c4-2"></div>
+
+    <p>用边框实现倒扇形</p>
+    <div class="c5"></div>
+
+    <p>border-image</p>
+    <div class="line"></div>
+<div class="c7"></div>
+</body>
+</html>

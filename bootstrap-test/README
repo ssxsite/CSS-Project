@@ -1,0 +1,5 @@
+//bootstrap在做响应式非常好用，如果后台管理系统界面对样式要求不高，即可拿来就用。并且可以按需求定制一些样式
+//通过修改变量等方式定制bootstrap样式
+命令：
+npx node-sass --output-style expanded ./bootstrap-test/bootstrap-custom.scss>./bootstrap-test/bootstrap-custom.css
+

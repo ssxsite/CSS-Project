@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            background:red;
+            width:100%;
+            margin:20px;
+        }
+        .p1{
+            background:green;
+            float:left;
+            width:200px;
+            height:50px;
+        }
+        .container2::after{
+            content: 'aaa';
+            clear:both;
+            display: block;
+            visibility: hidden;
+            height:0;
+        }
+        .test::after{
+            content: '';
+            height: 0;
+            border: 1px solid;
+        }
+        
+    </style>
+</head>
+<body>
+<style media="screen">
+    .bg{
+        background: url("./panda.jpg") center no-repeat;
+        background-size: cover;
+    }
+</style>
+    <!--<div class="container">-->
+        <!--<span class="p1">-->
+            <!--float-->
+        <!--</span>-->
+        <!--<div class="p2">-->
+            <!--很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="container" style="overflow: hidden">-->
+          <!--<span class="p1">-->
+            <!--float-->
+        <!--</span>-->
+
+
+        <!--<span class="p1">-->
+            <!--float-->
+        <!--</span>-->
+    <!--</div>-->
+
+<p>container2---------</p>
+    <div class="container container2">
+          <span class="p1">
+            float
+        </span>
+
+        <span class="p1">
+            float
+        </span>
+    </div>
+
+   <!-- float实现两列布局 -->
+    <p>float实现两列布局</p>
+    <div class="container">
+        <div  style="float:left;width: 200px;" class="bg">
+            <p>left</p>
+        </div>
+        <div style="margin-left: 200px">
+            <p> 很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字很长的文字
+            </p>
+        </div>
+    </div>
+
+    <!--<p>float实现三列布局</p>-->
+    <!--<div class="container">-->
+        <!--<div  style="float:left;width: 20%;background-color: blue">-->
+            <!--<p>left</p>-->
+        <!--</div>-->
+        <!--<div  style="float:right;width: 30%;background-color: blue">-->
+            <!--<p>right</p>-->
+        <!--</div>-->
+
+        <!--<div style="margin-left: 20%;margin-right: 30%">-->
+            <!--<p>111111111</p>-->
+            <!--<p>111111111</p>-->
+        <!--</div>-->
+
+    <!--</div>-->
+
+
+
+</body>
+</html>

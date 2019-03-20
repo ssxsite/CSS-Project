@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS_tree</title>
+    <style>
+        ol, li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ol.tree {
+            padding: 0 0 0 30px;
+            width: 300px;
+        }
+
+        ol.tree li {
+            position: relative;
+            margin-left: -15px;
+            list-style: none;
+        }
+
+        ol.tree li > label {
+            background: url("./img/folder.png") 2em 1px no-repeat;
+            cursor: pointer;
+            display: block;
+            padding-left: 4em;
+            background-size: contain;
+        }
+
+        ol.tree  li > input {
+            position: absolute;
+            left: 0;
+            margin-left: 0;
+            z-index: 2;
+            cursor: pointer;
+            height: 1em;
+            width: 1em;
+            top: 0;
+        }
+
+        li input:checked + ol {
+            display: block;
+            padding: 10px 0 0 2em;
+        }
+
+        li input + ol {
+            display: none;
+        }
+
+        li.file a {
+            background: url("./img/file.png") 0 0 no-repeat;
+            color: #4C4C4C;
+            padding-left: 21px;
+            text-decoration: none;
+            display: block;
+            font-size: 16px;
+            background-size: contain;
+        }
+        .testCheck{
+            -webkit-appearance:none;
+            outline: none;
+            background:url("img/checkbox1.png") left center no-repeat;
+            background-size:contain;
+            padding-left:20px;
+            vertical-align: middle;
+        }
+        .testCheck:checked{
+            background-image:url("img/checkbox2.png");
+        }
+    </style>
+</head>
+<body>
+<ol class="tree">
+    <li>
+        <label for="folder1">Folder 1</label>
+        <input type="checkbox" id="folder1" class="testCheck">
+        <ol>
+            <li class="file">
+                <a href="javascript:void(0)">file1</a>
+            </li>
+            <li>
+                <label for="subfolder1">subFolder 1</label>
+                <input type="checkbox" id="subfolder1" class="testCheck">
+                <ol>
+                    <li class="file">
+                        <a href="javascript:void(0)">file1</a>
+                    </li>
+                    <li class="file">
+                        <a href="javascript:void(0)">file1</a>
+                    </li>
+                    <li class="file">
+                        <a href="javascript:void(0)">file1</a>
+                    </li>
+                    <li class="file">
+                        <a href="javascript:void(0)">file1</a>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <label for="folder2">Folder 1</label>
+        <input type="checkbox" id="folder2" class="testCheck">
+        <ol>
+            <li class="file">
+                <a href="javascript:void(0)">file2</a>
+            </li>
+            <li>
+                <label for="subfolder2">subFolder 1</label>
+                <input type="checkbox" id="subfolder2" class="testCheck">
+                <ol>
+                    <li class="file">
+                        <a href="javascript:void(0)">file21</a>
+                    </li>
+                    <li class="file">
+                        <a href="javascript:void(0)">file22</a>
+                    </li>
+                    <li class="file">
+                        <a href="javascript:void(0)">file23</a>
+                    </li>
+                    <li class="file">
+                        <a href="javascript:void(0)">file24</a>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+</ol>
+</body>
+</html>

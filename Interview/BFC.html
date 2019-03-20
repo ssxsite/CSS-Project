@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BFC</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #set1 {
+            background-color: red;
+            overflow: hidden;
+            /*overflow: auto;*/
+            /*overflow: scroll;*/
+            /*position: absolute;*/
+            /*position: fixed;*/
+            /*display: inline-block;*/
+            /*display: table;*/
+            /*display: table-row;*/
+            /*display: table-cell;*/
+            /*float: left;*/
+        }
+
+        .test1 {
+            height: 100px;
+            background-color: #00aa88;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<!--<section id="set1">-->
+    <!--<div class="test1">-->
+        <!--1111111111-->
+    <!--</div>-->
+<!--</section>-->
+<!--<section  id="set2" style="float: left">-->
+    <!--22222222222222222222-->
+<!--</section>-->
+<section id="set3">
+    <div style="overflow: hidden">
+        <div style="background-color: yellow; margin: 10px 0;">1111111111111</div>
+    </div>
+    <div style="background-color: #1cffff;width: 500px; margin: 20px 0;">2222222222</div>
+</section>
+
+<section id="set4">
+    <div style="width: 100px;background-color: #00cc00;float: left;height: 10px;"></div>
+    <div style="background-color: #cccccc;overflow: hidden">
+        <p>1111111111111</p>
+        <p>1111111111111</p>
+        <p>1111111111111</p>
+        <p>1111111111111</p>
+        <p>1111111111111</p>
+        <p>1111111111111</p>
+        <p>1111111111111</p>
+        <p>1111111111111</p>
+    </div>
+
+</section>
+
+</body>
+</html>

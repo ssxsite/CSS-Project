@@ -1,0 +1,18 @@
+
+// @mixin gen-col($n){
+//     @if $n > 0 {
+//         @include gen-col($n - 1);
+//         .col-#{$n}{
+//             width: 1000px/12*$n;
+//         }
+//     }
+// }
+
+// @include gen-col(12);
+
+/* less不支持for语法，只能用mixin;而sass不仅支持mixin,还有更简便的方法:for循环 */
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        width: 1000px/12*$i;
+    }
+}

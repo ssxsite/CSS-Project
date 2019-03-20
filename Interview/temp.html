@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<section>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .wrap.table {
+            display: table;
+            width: 100%;
+            height: 300px;
+        }
+        .table-row{
+            display: table-row;
+        }
+        .table-cell{
+            display: table-cell;
+        }
+
+        .wrap.table .left, .wrap.table .right {
+            width: 300px;
+            background-color: red;
+            background-color: red;
+        }
+        .wrap.table .right{
+            background-color: green;
+        }
+    </style>
+    <article class="wrap table">
+        <div class="table-row">
+            <div class="left  table-cell">111111111</div>
+            <div class="center table-cell">
+                <p>高度自适应，请写出三栏布局，其中左栏，右栏宽度各300px,中间自适应</p>
+            </div>
+            <div class="right table-cell">3333333333</div>
+        </div>
+    </article>
+</section>
+
+<!--table border-collapse解决间隙问题-->
+<table style="width: 100%;border-collapse:collapse;">
+    <tr >
+        <td style="background-color: red;">1111</td>
+        <td style="background-color: green;">222</td>
+    </tr>
+</table>
+</body>
+</html>

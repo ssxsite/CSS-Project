@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>grid布局</title>
+    <style>
+        html *{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div class="wrapper test1">
+        <style media="screen">
+            .wrapper.test1 {
+                display: grid;
+                grid-template-columns: 100px 100px 100px;
+                grid-template-rows: 50px 50px;
+            }
+        </style>
+        <div style="background-color: red">1</div>
+        <div style="background-color: #1cffff">2</div>
+        <div  style="background-color: #00aa88">3</div>
+        <div style="background-color: #aa3f39">4</div>
+        <div style="background-color: #8cce4c">5</div>
+        <div style="background-color: #56cfe4">6</div>
+    </div>
+</section>
+
+<br>
+<br>
+<section>
+    <style media="screen">
+        .wrapper.test2 {
+            display: grid;
+            grid-template-columns: 200px 50px 100px;
+            grid-template-rows: 100px 50px;
+        }
+    </style>
+    <div class="wrapper test2">
+        <div style="background-color: red">1</div>
+        <div style="background-color: #1cffff">2</div>
+        <div  style="background-color: #00aa88">3</div>
+        <div style="background-color: #aa3f39">4</div>
+        <div style="background-color: #8cce4c">5</div>
+        <div style="background-color: #56cfe4">6</div>
+    </div>
+</section>
+
+<br>
+<br>
+<section>
+    <style media="screen">
+        .wrapper.test2 {
+            display: grid;
+            grid-template-columns: 200px 50px 100px;
+            grid-template-rows: 100px 50px 50px;
+        }
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    </style>
+    <div class="wrapper test2">
+        <div style="background-color: red" class="item1">1</div>
+        <div style="background-color: #1cffff">2</div>
+        <div  style="background-color: #00aa88">3</div>
+        <div style="background-color: #aa3f39">4</div>
+        <div style="background-color: #8cce4c">5</div>
+        <div style="background-color: #56cfe4">6</div>
+    </div>
+</section>
+
+<br>
+<br>
+
+<section>
+    <style media="screen">
+        .wrapper.test4 {
+            display: grid;
+            grid-template-columns: 50px 50px 50px;
+            grid-template-rows: 50px 50px 50px;
+        }
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .item3{
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        .item4{
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+    </style>
+    <div class="wrapper test4">
+        <div style="background-color: red" class="item1">1</div>
+        <div style="background-color: #1cffff">2</div>
+        <div  style="background-color: #00aa88" class="item3">3</div>
+        <div style="background-color: #aa3f39" class="item4">4</div>
+        <div style="background-color: #8cce4c">5</div>
+        <div style="background-color: #56cfe4">6</div>
+    </div>
+</section>
+
+<br>
+<br>
+<section>
+    <style media="screen">
+        .wrapper.test3{
+            display: grid;
+            width: 100%;
+            grid-template-columns: 200px auto 200px;
+        }
+        .wrapper.test3 .left{
+            background: url("./panda.jpg")center no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <div class="wrapper test3">
+        <div class="left" style="background-color: red">left</div>
+        <div class="center" style="background-color: #3bfffe;text-align: center">
+            <p>gird 实现宽度100%，高度自适应的三栏布局</p>
+            <p>gird 实现宽度100%，高度自适应的三栏布局</p>
+            <p>gird 实现宽度100%，高度自适应的三栏布局</p>
+            <p>gird 实现宽度100%，高度自适应的三栏布局</p>
+            <p>gird 实现宽度100%，高度自适应的三栏布局</p>
+            <p>gird 实现宽度100%，高度自适应的三栏布局</p>
+            <p>gird 实现宽度100%，高度自适应的三栏布局</p>
+            <p>gird 实现宽度100%，高度自适应的三栏布局</p>
+        </div>
+        <div class="right" style="background-color: #ffd6fc">right</div>
+    </div>
+</section>
+
+<br>
+<br>
+
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .test1{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+        .test1:hover{
+            width: 800px;
+        }
+        .transition1{
+            transition:width 1s;
+            transition-delay: 2s;
+        }
+        .test2{
+            width: 100px;
+            height: 200px;
+            background-color: red;
+        }
+        .test2:hover{
+            width: 800px;
+            background-color: green;
+        }
+        .transtion2{
+            transition: width 1s,background-color 2s;
+            transition-delay: 1s;
+        }
+
+        .transtion3{
+            transition: width 1s,background-color 2s;
+            /*transition-delay: 1s;*/
+            transition-timing-function: cubic-bezier(0.000, -0.425, 0.445, 1.530);
+        }
+        .test5{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: changeWidth 1s;
+            animation-delay: 1s;
+        }
+        .test6{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: changeWidth 10s;
+            animation-delay: 1s;
+            animation-timing-function: cubic-bezier(0.000, -0.425, 0.445, 1.530);
+        }
+        .test7{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: changeWidth 2s;
+            animation-delay: 1s;
+            animation-timing-function: cubic-bezier(0.000, -0.425, 0.445, 1.530);
+            /*animation-fill-mode: forwards;*/
+           /*animation-play-state: running;*/
+            animation-iteration-count: 1;
+            animation-direction: reverse;
+        }
+        @keyframes changeWidth {
+            0%{
+                width: 100px;
+            }
+            50%{
+                width: 400px;
+            }
+            100%{
+                width: 800px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+<p>1.过渡动画 transition</p>
+    <p>1.没有动画</p>
+    <div class="test1"></div>
+
+    <p>2.补间动画</p>
+    <div class="test1 transition1"></div>
+
+    <p>3.trangstion 支持多个属性的变化过渡</p>
+    <div class="test2 transtion2"></div>
+
+    <p>4.transtion-function 过渡进度和时间关系 </p>
+
+    <div class="test2 transtion3"></div>
+
+<p>2.关键帧动画 keyfram</p>
+<div class="test5">keyfram</div>
+<div class="test6">keyfram2</div>
+<div class="test7">keyfram 更多功能</div>
+
+</body>
+</html>

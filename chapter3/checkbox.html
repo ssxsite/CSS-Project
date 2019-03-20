@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>checkbox</title>
+    <style>
+        .checkbox{
+
+        }
+        .checkbox input{
+            display: none;
+        }
+        .checkbox input + label{
+            background:url(img/checkbox1.png) left center no-repeat;
+            background-size:20px 20px;
+            padding-left:20px;
+        }
+        .checkbox input:checked + label{
+            background-image:url(img/checkbox2.png);
+        }
+        .testCheck{
+            width: 20px;
+            height: 20px;
+            -webkit-appearance:none;
+            outline: none;
+            background:url(img/checkbox1.png) left center no-repeat;
+            background-size:20px 20px;
+            padding-left:20px;
+            vertical-align: middle;
+        }
+        .testCheck:checked{
+            background-image:url(img/checkbox2.png);
+        }
+        .testCheck + label{
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="checkbox">
+        <input type="checkbox" id="handsome"/>
+        <label for="handsome">我很帅</label>
+    </div>
+    <div>
+        <input type="checkbox" class="testCheck" id="testCheck">
+        <label for="testCheck">testCheck</label>
+    </div>
+
+</body>
+</html>

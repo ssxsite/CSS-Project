@@ -1,0 +1,58 @@
+//安装postcss-cli
+npm install postcss-cli -S
+
+//使用postcss-cli
+postcss input.css -o output.css
+
+https://github.com/postcss/postcss-cli
+
+//安装autoprefixer
+
+npm install autoprefixer -S
+
+//post-css 介绍
+https://github.com/postcss/postcss/blob/HEAD/README-cn.md
+
+//本项目的各种命令都是自己编写的
+"test": "echo \"Error: no test specified\" && exit 1",
+"less": "./node_modules/.bin/lessc ./less-test/less-test01.less>./less-test/less-test01.css",
+"sass": "./node_modules/.bin/node-sass --output-style expanded ./sass-test/sass-test01.scss>./sass-test/sass-test01.css",
+"boot-sass": "./node_modules/.bin/node-sass --output-style expanded ./bootstrap-test/bootstrap-custom/scss/bootstrap.scss>./bootstrap-test/bootstrap-custom/dist/css/bootstrap.css",
+"boot-custom": "./node_modules/.bin/node-sass --output-style expanded ./bootstrap-test/bootstrap-custom.scss>./bootstrap-test/bootstrap-custom.css",
+"post-css": "./node_modules/.bin/postcss ./chapter9/postcss-test01.css -o ./chapter9/postcss-test01-f.css"
+
+
+//gulp 使用
+gulp css
+
+//项目介绍
+chapter1.bootstrap-test
+bootstrap在做响应式非常好用，如果后台管理系统界面对样式要求不高，即可拿来就用。并且可以按需求定制一些样式
+
+chapter2.复习块级元素和inline元素的包含关系；form表单的作用。
+
+chapter3.复习常用css属性：
+background ；border；overflow；overflow-wrap;font;css hack; checkbox的高级应用;自定义字体；伪元素伪类；
+css选择器权重；
+
+
+chapter4.复习各种css布局的优缺点
+
+chapter5.box-shadow,text-shadow，background，clip-path;transform;
+
+chapter6.css 动画
+
+chapter7.css 预处理器
+
+chapter8.bootstrap定制方法
+
+cahpter9.postcss
+
+cahpter10.css 在angular,vue,react实现组件化的原理
+
+
+
+
+
+
+

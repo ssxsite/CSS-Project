@@ -1,0 +1,38 @@
+{
+  "name": "css-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "less": "./node_modules/.bin/lessc ./less-test/less-test01.less>./less-test/less-test01.css",
+    "sass": "./node_modules/.bin/node-sass --output-style expanded ./sass-test/sass-test01.scss>./sass-test/sass-test01.css",
+    "boot-sass": "./node_modules/.bin/node-sass --output-style expanded ./bootstrap-test/bootstrap-custom/scss/bootstrap.scss>./bootstrap-test/bootstrap-custom/dist/css/bootstrap.css",
+    "boot-custom": "./node_modules/.bin/node-sass --output-style expanded ./bootstrap-test/bootstrap-custom.scss>./bootstrap-test/bootstrap-custom.css",
+    "post-css": "./node_modules/.bin/postcss ./chapter9/postcss-test01.css -o ./chapter9/postcss-test01-f.css",
+    "gulp": "./node_modules/.bin/gulp css",
+    "webpack": "./node_modules/.bin/webpack",
+    "webpack-dev-server": "./node_modules/.bin/webpack-dev-server",
+    "ng": "./node_modules/.bin/ng --help"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.4.5",
+    "cssnano": "^4.1.8",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "less": "^3.9.0",
+    "node-sass": "^4.11.0",
+    "postcss-cli": "^6.1.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1"
+  },
+  "devDependencies": {
+    "@angular/cli": "^7.2.2",
+    "@vue/cli": "^3.3.0",
+    "create-react-app": "^2.1.3",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}

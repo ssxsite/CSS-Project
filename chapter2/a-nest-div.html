@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>default style</title>
+</head>
+<body>
+    <div><a href="#">DIV &gt; A</a></div>
+    <a href="#"><div>A &gt; DIV</div></a>
+    <p><a href="#"><div>P &gt; A &gt; DIV</div></a></p>
+    <p>
+        块级元素和行内元素之间的嵌套，是块级可以嵌套行内元素和某些块级元素，而行内元素不能嵌套块级元素，可以嵌套文本和其他行内元素。但有几个特殊的块级元素只能包含行内元素， h1~h6、p、dt，因此p标签不能包含div元素，因为浏览器渲染的缘故，p包含div元素时会被渲染成：<p>xxx</p><div>xxxx</div><p></p>。
+    a标签可以包含块级元素，也可以包含内联元素。
+    </p>
+
+<p><div>333</div></p>
+
+    <p>虽然a元素可以包含块级元素，inline元素，但是还是有一些样式不能实现，所以一般如果包含块级元素，就设置display:block</p>
+    <a href="http://www.baidu.com" style="border: 1px solid red;display: block">
+        <div>1111</div>
+        <span>2222</span>
+    </a>
+
+
+</body>
+</html>

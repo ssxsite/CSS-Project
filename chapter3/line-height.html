@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>line-height</title>
+    <style>
+        .cc1{
+            font-size:12px;
+        }
+        .cc2{
+            font-size:18px;
+        }
+        .cc3{
+            font-size:24px;
+        }
+        .icon1{
+            width: 25px;
+            height: 29px;
+            display: inline-block;
+            background: url("./img/i1.png");
+            background-size:100%;
+        }
+    </style>
+</head>
+<body>
+    <div style="border:solid 1px red;">
+        <span style="background:blue;color:#fff;font-size:20px;line-height:60px;">
+            居中xfg&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        </span></div>
+    <div class="c1">
+        <span class="cc1">第一段</span>
+        <span class="cc2">第二段</span>
+        <span class="cc3">第三段</span>
+    </div>
+    <div style="background:red">
+        <span>文字</span>
+        <img src="test.png"/>
+    </div>
+    <div>
+        <div style="float:left">
+            <span>第一段</span>
+        </div>
+        <div style="float:left">
+            <span>第二段</span>
+        </div>
+    </div>
+    <p>图片和文字垂直居中问题</p>
+    <div>
+        <span class="icon1"></span><span style="font-size: 60px">火狐浏览器</span>
+    </div>
+    <div>
+        <span class="icon1" style="vertical-align: middle"></span><span style="font-size: 60px;vertical-align: middle;">火狐浏览器</span>
+    </div>
+    <div>
+        <img src="./img/i1.png" alt="" style="width: 25px;vertical-align: middle"><span style="font-size: 60px;vertical-align: middle;">火狐浏览器</span>
+    </div>
+    <div style="display: flex;flex-direction: row;align-items: center">
+        <img src="./img/i1.png" alt="" style="width: 25px;"><span style="font-size: 60px;">火狐浏览器</span>
+    </div>
+</body>
+</html>

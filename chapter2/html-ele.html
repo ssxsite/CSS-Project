@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous">
+    </script>
+    <title>Demo</title>
+</head>
+<body>
+<section>
+    <h1>链接</h1>
+    <a href="http://www.qq.com">腾讯网</a>
+    <a href="http://www.taobao.com" target="_blank">淘宝网</a>
+</section>
+<section>
+    <h1>表格</h1>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>表头1</th>
+            <th>表头2</th>
+            <th>表头3</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>数据1</td>
+            <td>数据2</td>
+            <td>数据3</td>
+        </tr>
+        <tr>
+            <td colspan="2">数据1</td>
+            <td>数据3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">数据1</td>
+            <td>数据2</td>
+            <td>数据3</td>
+        </tr>
+        <tr>
+            <td>数据2</td>
+            <td>数据3</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+<section>
+    <h1>表单</h1>
+    <form method="GET" action="http://www.qq.com">
+        <p>
+            <select name="select1">
+                <option value="1">一</option>
+                <option value="2" selected>二</option>
+            </select>
+        </p>
+        <p>
+            <input type="text" name="text1"/>
+        </p>
+        <p>
+            <input type="password" name="password"/>
+        </p>
+        <p>
+            <input type="radio" name="radio1" id="radio1-1"/>
+            <label>选项一</label>
+            <input type="radio" name="radio1" id="radio1-2"/>
+            <label for="radio1-2">选项二</label>
+        </p>
+        <p>
+            <button type="button">普通按钮</button>
+            <button type="submit">提交按钮一</button>
+            <input type="submit" value="提交按钮二"/>
+            <button type="reset">重置按钮</button>
+        </p>
+    </form>
+</section>
+<section>
+    <p>利用ajax进行数据请求，仍然建议使用form表单</p>
+    <p>form表单默认有提交功能，只要input有给name属性，都会被提交为参数</p>
+    <form action="http://www.qq.com">
+        <div><input type="text" name="a" value="1" id="a"/></div>
+        <div><input type="text" name="b" value="2" id="b"/></div>
+        <div><input type="password" name="p" value="2" id="p"/></div>
+        <div><input type="hidden" name="c" value="3" id="c"/></div>
+        <div>
+            <textarea name="d" rows="8" cols="40">4</textarea>
+        </div>
+        <div>
+            <select name="e">
+                <option value="5" selected="selected">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="f" value="8" id="f"/>
+            <input type="radio" name="g" value="9" id="g2"/>
+        </div>
+        <div>
+            <input type="submit" name="g" value="Submit" id="g"/>
+        </div>
+    </form>
+</section>
+</body>
+<script>
+    // $('form').submit(function () {
+    //     alert($(this).serialize());
+    //     return false;
+    // });
+</script>
+</html>
