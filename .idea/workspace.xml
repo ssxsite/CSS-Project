@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe68bd1c-12de-4141-88af-c1b1fd427494" name="Default" comment="" />
+    <list default="true" id="fe68bd1c-12de-4141-88af-c1b1fd427494" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter3/em&amp;rem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter3/rem弹性布局.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview/test01.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interview/test01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter10/cssInAngular/demo" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/cssInAngular/demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter10/cssInReact/demo" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/cssInReact/demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3/fonts.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/fonts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/04-float.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/04-float.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/10-responsive.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/10-responsive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/09-3d.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/09-3d.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,7 +27,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="rem弹性布局.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter3/rem弹性布局.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="751">
+              <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+              <folding>
+                <element signature="e#275#493#0" />
+                <element signature="e#528#647#0" />
+                <element signature="e#656#797#0" />
+                <element signature="e#806#925#0" />
+                <element signature="e#944#1113#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="em&amp;rem.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter3/em&amp;rem.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding>
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,21 +90,23 @@
       <find>@media</find>
       <find>viewport</find>
       <find>nav</find>
+      <find>meta</find>
+      <find>clear:both</find>
+      <find>chinese</find>
+      <find>@keyframes</find>
+      <find>transit</find>
+      <find>media</find>
     </findStrings>
     <replaceStrings>
       <replace>高度自适应</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/chapter10/cssInAngular/demo/src/app/seftComponents/componets-one/componets-one.component.html" />
-        <option value="$PROJECT_DIR$/chapter10/cssInAngular/demo/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/chapter10/cssInAngular/demo/src/app/seftComponents/componets-two/componets-two.component.html" />
-        <option value="$PROJECT_DIR$/chapter10/cssInAngular/demo/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/chapter10/cssInAngular/demo/src/app/app.component.css" />
-        <option value="$PROJECT_DIR$/chapter10/cssInAngular/demo/src/index.html" />
         <option value="$PROJECT_DIR$/chapter10/cssInAngular/demo/src/app/seftComponents/componets-one/componets-one.component.css" />
         <option value="$PROJECT_DIR$/chapter10/cssInAngular/demo/src/styles.css" />
         <option value="$PROJECT_DIR$/chapter10/cssInAngular/demo/src/app/seftComponents/componets-one/componets-one.component.ts" />
@@ -76,26 +121,22 @@
         <option value="$PROJECT_DIR$/chapter10/cssInReact/demo/src/App.css" />
         <option value="$PROJECT_DIR$/chapter5/07-background-size.html" />
         <option value="$PROJECT_DIR$/chapter3/pseudo_element.html" />
-        <option value="$PROJECT_DIR$/chapter4/04-float.html" />
         <option value="$PROJECT_DIR$/chapter4/test.html" />
         <option value="$PROJECT_DIR$/chapter4/05-position.html" />
         <option value="$PROJECT_DIR$/chapter4/gird.html" />
         <option value="$PROJECT_DIR$/chapter4/03-table.html" />
         <option value="$PROJECT_DIR$/chapter4/11-responsive.html" />
         <option value="$PROJECT_DIR$/chapter6/01-transition.html" />
-        <option value="$PROJECT_DIR$/Interview/test01.html" />
         <option value="$PROJECT_DIR$/Interview/test02.html" />
         <option value="$PROJECT_DIR$/Interview/test03.html" />
         <option value="$PROJECT_DIR$/Interview/BFC.html" />
         <option value="$PROJECT_DIR$/Interview/DOM.html" />
         <option value="$PROJECT_DIR$/chapter2/a-nest-html5.html" />
-        <option value="$PROJECT_DIR$/chapter3/fonts.html" />
         <option value="$PROJECT_DIR$/chapter3/border.html" />
         <option value="$PROJECT_DIR$/chapter3/wrap.html" />
         <option value="$PROJECT_DIR$/chapter2/block-inline.html" />
         <option value="$PROJECT_DIR$/chapter2/a-nest-div.html" />
         <option value="$PROJECT_DIR$/Interview/temp.html" />
-        <option value="$PROJECT_DIR$/chapter4/10-responsive.html" />
         <option value="$PROJECT_DIR$/performance-optimization/test01.html" />
         <option value="$PROJECT_DIR$/bootstrap-test/test.html" />
         <option value="$PROJECT_DIR$/bootstrap-test/README" />
@@ -103,9 +144,20 @@
         <option value="$PROJECT_DIR$/chapter2/README" />
         <option value="$PROJECT_DIR$/chapter2/html-ele.html" />
         <option value="$PROJECT_DIR$/chapter3/background.html" />
-        <option value="$PROJECT_DIR$/chapter5/10-css面试题.html" />
         <option value="$PROJECT_DIR$/chapter7/7-est.html" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/chapter5/10-css面试题.html" />
+        <option value="$PROJECT_DIR$/margin.html" />
+        <option value="$PROJECT_DIR$/Interview/test01.html" />
+        <option value="$PROJECT_DIR$/圣杯布局.html" />
+        <option value="$PROJECT_DIR$/双飞翼布局.html" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/chapter3/fonts.html" />
+        <option value="$PROJECT_DIR$/chapter4/04-float.html" />
+        <option value="$PROJECT_DIR$/chapter5/09-3d.html" />
+        <option value="$PROJECT_DIR$/chapter4/10-responsive.html" />
+        <option value="$PROJECT_DIR$/chapter3/finall.html" />
+        <option value="$PROJECT_DIR$/chapter3/em&amp;rem.html" />
       </list>
     </option>
   </component>
@@ -134,9 +186,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1971" />
-    <option name="y" value="30" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1997" />
+    <option name="y" value="113" />
     <option name="width" value="1860" />
     <option name="height" value="1009" />
   </component>
@@ -152,6 +204,11 @@
               <item name="CSS-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSS-Project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CSS-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSS-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -162,7 +219,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../temp/dpzx_dcw_web_vendor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -170,16 +227,16 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/chapter10/cssInAngular/demo/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\wockspace\CSS-Project\less-test" />
-      <recent name="F:\wockspace\CSS-Project" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\wockspace\CSS-Project" />
       <recent name="F:\wockspace\CSS-Project\chapter2" />
       <recent name="F:\wockspace\CSS-Project\Interview" />
       <recent name="F:\wockspace\CSS-Project\chapter4" />
       <recent name="F:\wockspace\CSS-Project\src" />
-      <recent name="F:\wockspace\CSS-Project\bootstrap-test\bootstrap-custom" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\wockspace\CSS-Project\less-test" />
+      <recent name="F:\wockspace\CSS-Project" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -308,11 +365,33 @@
       <workItem from="1552132010050" duration="596000" />
       <workItem from="1552549832530" duration="6782000" />
       <workItem from="1552621337869" duration="7486000" />
+      <workItem from="1553077803069" duration="497000" />
+      <workItem from="1553132416376" duration="622000" />
+      <workItem from="1553675396446" duration="4100000" />
+      <workItem from="1553755413026" duration="12673000" />
+      <workItem from="1553841179386" duration="8164000" />
+      <workItem from="1554362440703" duration="2614000" />
+      <workItem from="1555395370299" duration="8156000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1553078027392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553078027392</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1553841302351</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553841302351</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148779000" />
+    <option name="totallyTimeSpent" value="185605000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,27 +403,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1971" y="30" width="1860" height="1009" extended-state="1" />
+    <frame x="1997" y="113" width="1860" height="1009" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TypeScript" order="8" visible="true" weight="0.17458433" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7338129" visible="true" weight="0.18226872" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.70868015" visible="true" weight="0.14702643" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32942554" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="npm" order="2" sideWeight="0.29131985" side_tool="true" visible="true" weight="0.14702643" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.38836104" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info id="npm" order="2" sideWeight="0.26618704" side_tool="true" visible="true" weight="0.18226872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.24940617" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TypeScript" order="8" visible="true" weight="0.17458433" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,82 +436,20 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bootstrap-test/bootstrap-custom/scss/bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-test/bootstrap-custom/scss/_breadcrumb.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-test/bootstrap-custom/scss/utilities/_align.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-test/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter2/property-attribute.html" />
-    <entry file="file://$PROJECT_DIR$/chapter2/valid-html.html" />
-    <entry file="file://$PROJECT_DIR$/chapter2/valid-xhtml.html" />
-    <entry file="file://$PROJECT_DIR$/chapter2/default-style.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter2/a-nest-xhtml.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter2/block-inline.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter2/a-nest-html5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter2/a-nest-div.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="25" selection-start-line="13" selection-start-column="8" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter2/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -446,13 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/background-image.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -570,20 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter5/09-3d.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="62" column="21" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter5/10-css面试题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="871">
-          <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter6/01-transition.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -647,20 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter9/postcss-test01.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter9/another.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter10/cssInAngular/demo/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -675,17 +658,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter10/cssInAngular/demo/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9/postcss-test01-f.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9/postcss-test01.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9/another.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/10-css面试题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/background-image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/test01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/双飞翼布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/圣杯布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/fonts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/04-float.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter6/03-animal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter5/09-3d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/10-responsive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/rem弹性布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <element signature="e#275#493#0" />
+            <element signature="e#528#647#0" />
+            <element signature="e#656#797#0" />
+            <element signature="e#806#925#0" />
+            <element signature="e#944#1113#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/em&amp;rem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -38,11 +38,13 @@
         }
     </style>
     <article class="wrap table">
-        <div class="left  table-cell"></div>
+        <div class="left  table-cell">1111</div>
         <div class="center table-cell">
             <p>高度自适应，请写出三栏布局，其中左栏，右栏宽度各300px,中间自适应</p>
+            <p>高度自适应，请写出三栏布局，其中左栏，右栏宽度各300px,中间自适应</p>
+            <p>高度自适应，请写出三栏布局，其中左栏，右栏宽度各300px,中间自适应</p>
         </div>
-        <div class="right table-cell"></div>
+        <div class="right table-cell">222</div>
 
     </article>
 </section>
@@ -52,8 +54,10 @@
 <hr style="margin-bottom: 20px">
 <section>
     <style media="screen">
-        .wrap.float {
+        .wrap.float::after {
             /*overflow: hidden;*/
+            content: '';
+            clear: both;
         }
         .wrap.float .left, .wrap.float .right {
             width: 300px;
