@@ -1,0 +1,13 @@
+.col{
+    width: 100px;
+    height: 200px;
+}
+
+.left{
+    float: left;
+    background-color: blue;
+}
+.right{
+    float: right;
+    background-color: green;
+}

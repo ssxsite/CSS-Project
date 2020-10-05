@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="get" onsubmit="sub(event)">
+    <p>First name: <input type="text" name="fname" required /></p>
+    <p>Last name: <input type="text" name="lname"  /></p>
+    <input type="submit" value="提交" />
+    <input type="reset" value="重置" />
+    <button type="submit">提交</button>
+    <button type="reset">重置</button>
+</form>
+<script>
+    function sub(e) {
+        e.target.preventDefault();
+        console.log(111111111)
+    }
+</script>
+</body>
+</html>

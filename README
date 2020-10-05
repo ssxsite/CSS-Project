@@ -50,6 +50,10 @@ cahpter9.postcss
 
 cahpter10.css 在angular,vue,react实现组件化的原理
 
+sass -->css 命令
+npx sass test.scss test.css
+
+
 
 
 

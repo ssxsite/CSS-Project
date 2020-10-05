@@ -1,0 +1,19 @@
+.single-check-list {
+  background-color: white;
+}
+.single-check-list .item {
+  padding-right: 0.3rem;
+  border-bottom: 1px solid #ebebeb;
+}
+.single-check-list .item .content {
+  height: 0.88rem;
+  line-height: 0.88rem;
+  text-indent: 0.3rem;
+}
+.single-check-list .item.item-atcive .content {
+  color: #3fc2d9;
+  background: url("../../../../assets/image/search/select8_2_1.png") right center no-repeat;
+  background-size: 0.34rem 0.24rem;
+}
+
+/*# sourceMappingURL=test.css.map */

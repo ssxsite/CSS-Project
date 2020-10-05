@@ -1,0 +1,19 @@
+.single-check-list{
+  background-color: white;
+  .item{
+    padding-right: .3rem;
+    border-bottom: 1px solid #ebebeb;
+    .content{
+      height: .88rem;
+      line-height: .88rem;
+      text-indent: .3rem;
+    }
+  }
+  .item.item-atcive{
+    .content{
+      color: #3fc2d9;
+      background: url("../../../../assets/image/search/select8_2_1.png") right center no-repeat;
+      background-size: .34rem .24rem;
+    }
+  }
+}
