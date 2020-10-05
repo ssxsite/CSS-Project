@@ -5,9 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter10/cssInAngular/demo" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/cssInAngular/demo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter10/cssInReact/demo" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/cssInReact/demo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/iconfontTest/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/iconfontTest/iconfont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/iconfontTest/iconfont.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3/iconfontTest/demo_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/iconfontTest/demo_index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="demo.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demo.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter3/iconfontTest/demo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="297">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -39,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo_index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="demo_index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter3/iconfontTest/demo_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="47" />
+            <state relative-caret-position="411">
+              <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#h1#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -64,7 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>btn-primary</find>
       <find>btn-p</find>
       <find>$primary</find>
       <find>pri</find>
@@ -94,6 +100,7 @@
       <find>view</find>
       <find>多行</find>
       <find>.scss</find>
+      <find>xe645</find>
     </findStrings>
     <replaceStrings>
       <replace>高度自适应</replace>
@@ -405,7 +412,7 @@
       <workItem from="1563935756322" duration="2810000" />
       <workItem from="1601798468056" duration="4441000" />
       <workItem from="1601861094685" duration="9680000" />
-      <workItem from="1601890897891" duration="4528000" />
+      <workItem from="1601890897891" duration="6703000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1553078027392</created>
@@ -432,7 +439,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230919000" />
+    <option name="totallyTimeSpent" value="233094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,8 +452,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7387387" visible="true" weight="0.15327695" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7387387" visible="true" weight="0.15327695" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32942554" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -454,7 +462,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.38836104" />
       <window_info id="npm" order="2" sideWeight="0.26126125" side_tool="true" weight="0.16120507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4358108" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.13513513" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="8" visible="true" weight="0.17458433" />
@@ -508,13 +516,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter10/cssInAngular/demo/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter10/cssInAngular/demo/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -851,23 +852,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/iconfontTest/demo_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#h1#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/iconfontTest/iconfont.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/iconfontTest/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="297">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/iconfontTest/demo_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#h1#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
