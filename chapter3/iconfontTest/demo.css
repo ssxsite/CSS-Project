@@ -1,0 +1,17 @@
+/* Logo 字体 */
+@font-face {
+  font-family: "iconfont logo";
+  src: url('./iconfont.eot');
+  src: url('./iconfont.eot') format('embedded-opentype'),
+  url('./iconfont.woff') format('woff'),
+  url('./iconfont.ttf') format('truetype'),
+  url('./iconfont.svg') format('svg');
+}
+
+.logo {
+  font-family: "iconfont logo";
+  font-size: 160px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
