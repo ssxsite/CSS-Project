@@ -24,8 +24,8 @@
       <file leaf-file-name="demo.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter3/iconfontTest/demo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            <state relative-caret-position="264">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -42,8 +42,8 @@
       <file leaf-file-name="demo_index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter3/iconfontTest/demo_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+            <state relative-caret-position="103">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#h1#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -405,7 +405,7 @@
       <workItem from="1563935756322" duration="2810000" />
       <workItem from="1601798468056" duration="4441000" />
       <workItem from="1601861094685" duration="9680000" />
-      <workItem from="1601890897891" duration="3774000" />
+      <workItem from="1601890897891" duration="4149000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1553078027392</created>
@@ -432,7 +432,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230165000" />
+    <option name="totallyTimeSpent" value="230540000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,9 +445,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7387387" visible="true" weight="0.15327695" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7387387" visible="true" weight="0.15327695" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32942554" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -455,7 +454,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.38836104" />
       <window_info id="npm" order="2" sideWeight="0.26126125" side_tool="true" weight="0.16120507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.134009" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5900901" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="8" visible="true" weight="0.17458433" />
@@ -861,15 +860,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/iconfontTest/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        <state relative-caret-position="264">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/iconfontTest/demo_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        <state relative-caret-position="103">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#h1#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
